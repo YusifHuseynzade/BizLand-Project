@@ -1,0 +1,13 @@
+﻿@model Service
+@{
+    ViewData["Title"] = "Detail";
+}
+           
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-4 ms-4 mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon">@Html.Raw(Model.Icon)</div>
+              <h4><a href="">@Model.Title</a></h4>
+              <p>@Model.Desc</p>
+            </div>
+          </div>
+        
